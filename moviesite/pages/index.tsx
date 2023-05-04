@@ -9,8 +9,6 @@ import Results from '../components/Results'
 
 const inter = Inter({ subsets: ['latin'] })
 
-
-
 export default function Home({results}:Props) {
   // console.log(results)
   return (
