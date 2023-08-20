@@ -1,6 +1,6 @@
-import React from 'react'
-import request from '../utils/requests'
-import { useRouter } from 'next/router'
+import React from 'react';
+import request from '../utils/requests';
+import { useRouter } from 'next/router';
 
 
 
@@ -18,7 +18,7 @@ const Nav = () => {
                     >
                         {title}
                     </h2>
-                )
+                );
             })}
         </div>
 
@@ -27,4 +27,4 @@ const Nav = () => {
   )
 }
 
-export default Nav
+export default Nav;
