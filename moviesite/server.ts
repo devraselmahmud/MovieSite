@@ -31,6 +31,7 @@ app.prepare().then(() => {
     }
   })
     .once('error', (err) => {
+      //error console
       console.error(err)
       process.exit(1)
     })
